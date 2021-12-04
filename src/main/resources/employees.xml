@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17" class="java.beans.XMLDecoder">
+ <object class="com.bsuir.sementsova.client.entity.employee.Employee">
+  <void property="birthday">
+   <object class="java.time.LocalDate" method="parse">
+    <string>1982-11-04</string>
+   </object>
+  </void>
+  <void property="characteristic">
+   <string>Kind, self-organized</string>
+  </void>
+  <void property="id">
+   <int>1</int>
+  </void>
+  <void property="lastModification">
+   <object class="java.time.LocalDateTime" method="parse">
+    <string>2021-11-10T03:07:13.066962500</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Lia</string>
+  </void>
+ </object>
+ <object class="com.bsuir.sementsova.client.entity.employee.Employee">
+  <void property="birthday">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2001-08-21</string>
+   </object>
+  </void>
+  <void property="characteristic">
+   <string>hard-working</string>
+  </void>
+  <void property="id">
+   <int>2</int>
+  </void>
+  <void property="lastModification">
+   <object class="java.time.LocalDateTime" method="parse">
+    <string>2021-11-04T01:19:38.094600500</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Kira</string>
+  </void>
+ </object>
+</java>
